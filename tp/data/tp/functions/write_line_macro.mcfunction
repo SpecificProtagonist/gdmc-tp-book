@@ -1,0 +1,1 @@
+$data modify storage tp:data page.text set value '$(text),{"text":"$(name)","color":"dark_blue","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger tp set $(index)"}},{"storage":"tp:data","nbt":"newline","interpret":true}'
