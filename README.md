@@ -33,4 +33,12 @@ In multiplayer, the book will be provided to new players automatically.
 
 ### For generators:
 
-TODO document this
+#### Using the GDMC HTTP interface
+
+TODO: implement an endpoint
+
+#### Using NBT
+
+A world's list of points of interest is stored in the file `data/command_storage_tp.dat`, which is a gzip-compressed [NBT](https://minecraft.wiki/w/NBT_format) file, under the nbt path `data.contents.data.locations`. Each element of this list is a compound tag consisting of a string `name`, float `x`, float `z` and optionaly float `y`.
+
+In game, this can be accessed via the [`/data`](https://minecraft.wiki/w/Commands/data) command.
