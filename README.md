@@ -13,7 +13,7 @@ Minimum Minecraft version: 1.20.2
 
 ### For organizers:
 
-To add a new point of interest add your current location, run
+To add a new point of interest at your current location, run
 
     function tp:add_2d {name:"Name of the PoI"}
 
